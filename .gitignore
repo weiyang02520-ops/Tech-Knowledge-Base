@@ -1,0 +1,22 @@
+# Third-party repositories are local analysis inputs only.
+**/source/
+
+# Local analysis artifacts and editor state.
+.tmp/
+.local/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Never publish local environment or credential files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secrets*
